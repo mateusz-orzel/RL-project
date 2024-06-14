@@ -18,7 +18,7 @@ class Game:
     def __init__(self) -> None:
         self.window = pygame.display.set_mode((1200, 700))
         self.score = 0
-        
+
     def main(self):
         run = True
         snake = Snake(90, 150)
@@ -32,4 +32,8 @@ class Game:
                     pygame.quit()
                     quit()
 
+if __name__ == "__main__":
+
+    game = Game()
+    game.main()
                     
