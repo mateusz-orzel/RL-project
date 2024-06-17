@@ -6,12 +6,19 @@ class Snake:
         self.y = y
         self.speed = speed
         self.color = (10, 10, 100)
+        self.g = 1
 
     def collide(self, ?):
         pass
         
-    def move(self):
+    def draw(self, win):
+        self.y += self.g
+        pygame.draw.(self.x, self.y, self.color)
         
+    def move(self):
+        pass
+
+class 
 
 class Game:
     def __init__(self) -> None:
